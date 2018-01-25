@@ -1,0 +1,8 @@
+.guest{
+    float: left;
+    width:50%
+}
+.loginForm{
+    float: right;
+    width: 50%;
+}

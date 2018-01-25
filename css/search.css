@@ -1,0 +1,38 @@
+body {
+	background-color:#ffffff;
+}
+
+
+.hero-unit {
+  background-image:url('../images/view.jpg');
+  background-size:cover;
+  height:650px;
+  
+}
+
+.hero-unit h1 {
+    padding-top: 100px;
+    padding-left: 70px;
+    color: #FFFFFF;
+}
+
+.hero-unit p {
+    padding-left: 70px;
+    color: #FFFFFF;
+}
+
+.form-inline {
+    padding-top: 160px;
+    text-align: center;
+    
+}
+#location {
+    width: 300px;
+}
+#searchText h1 {
+    font-size: 220%;
+}
+
+#searchText p {
+    font-size: 180%;
+}

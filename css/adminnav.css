@@ -1,0 +1,69 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 14, 2015, 9:25:59 PM
+    Author     : pprevide
+*/
+
+body {
+    
+  }
+navigationUl
+{
+    padding-top:50px;
+}
+#logo{
+    float: left;
+    max-height: 50px;
+    max-width: 300px;
+}
+
+.banner
+{
+margin: 0;
+    width: 100%;
+    background-color: #f0ad4e;
+    border-radius: 0;
+    text-align: center;
+    border-color: #f0ad4e;    
+}
+
+
+@media (max-width: 979px) {
+  body {
+    padding-top: 50px;
+  }
+}
+
+
+#header{
+    background-color: red;
+    height: 20px;
+}
+
+#footer{
+    background-color: blue;
+    height: 20px;
+}
+
+.nav a {
+  color: #5a5a5a;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 14px 10px;
+  text-transform: uppercase;
+}
+.nav-text{
+    font-size: 15px;
+}
+
+.nav li {
+  display: inline;
+}
+
+.navbar-menubuilder h3 {
+    text-align: center;
+}

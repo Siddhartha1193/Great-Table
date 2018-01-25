@@ -1,0 +1,31 @@
+body {
+    background-image: url('../images/view.jpg');
+}
+
+.row {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    /*https://css-tricks.com/quick-css-trick-how-to-center-an-object-exactly-in-the-center*/
+    transform: translate(-50%, -50%);
+}
+@media (min-width: 768px) {
+  .navbar-nav {
+    width: 100%;
+    text-align: center;
+
+  }
+  .navbar-center {
+    font-size: 40px
+  }
+
+  .navbar-nav > li {
+    float: none;
+    display: inline-block;
+    padding: 0px 0px 0px 50px;
+  }
+  .navbar-nav > li.navbar-right {
+    float: right !important;
+    padding: 0px 50px 0px 0px;
+  }
+}
